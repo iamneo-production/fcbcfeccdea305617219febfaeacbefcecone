@@ -9,6 +9,20 @@ publci class Medicine{
         this.medicineId = medicineId;
         this.medicineName = medicineName;
         this.price = price;
-        
+        this.quantity = quantity;
+        this.description = description;
     }
+    public int getMedicineId(){
+        return medicineId;
+    }
+    public void setMedicineId(int medicineId){
+        this.medicineId = medicineId;
+    }
+    public String getMedicineName(){
+        return medicineName;
+    }
+    public void setMedicineName(String medicineName){
+        this.medicineName = medicineName;
+    }
+    
 }
